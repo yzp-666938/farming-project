@@ -17914,7 +17914,7 @@ GameObject:
   - component: {fileID: 650832483}
   - component: {fileID: 650832482}
   m_Layer: 0
-  m_Name: Camera_2
+  m_Name: Camera_Vegetable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -17987,13 +17987,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650832481}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -1.4, z: 9.27}
+  m_LocalRotation: {x: -0.3979518, y: 0.14081919, z: -0.06196193, w: -0.90441424}
+  m_LocalPosition: {x: 43.5, y: -4.5, z: 43.7}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2117711621}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 47.5, y: 342.3, z: 0}
 --- !u!1001 &651282295
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -28082,7 +28082,7 @@ GameObject:
   - component: {fileID: 971197421}
   - component: {fileID: 971197420}
   m_Layer: 0
-  m_Name: Camera_3
+  m_Name: Camera_Jungle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31096,7 +31096,7 @@ GameObject:
   - component: {fileID: 1053271178}
   - component: {fileID: 1053271177}
   m_Layer: 0
-  m_Name: Camera_1
+  m_Name: Camera_Barn
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31169,13 +31169,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1053271176}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 35.2, y: -2.39, z: 19}
+  m_LocalRotation: {x: 0.19493856, y: -0.47451606, z: 0.10863508, w: 0.85148805}
+  m_LocalPosition: {x: 34.3, y: -10.6, z: 22.2}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2117711621}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 25.79, y: -58.26, z: 0}
 --- !u!1001 &1056502501
 PrefabInstance:
   m_ObjectHideFlags: 0
