@@ -2661,7 +2661,7 @@ Camera:
   m_ShutterSpeed: 0.005
   m_Aperture: 16
   m_FocusDistance: 10
-  m_FocalLength: 50
+  m_FocalLength: 20.78461
   m_BladeCount: 5
   m_Curvature: {x: 2, y: 11}
   m_BarrelClipping: 0.25
@@ -2679,7 +2679,7 @@ Camera:
   field of view: 60.000004
   orthographic: 0
   orthographic size: 5
-  m_Depth: 0
+  m_Depth: 100
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -2703,7 +2703,7 @@ Transform:
   m_GameObject: {fileID: 111456279}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2982337, y: -0.06636323, z: 0.020790704, w: 0.9519561}
-  m_LocalPosition: {x: 27.019747, y: -11.094297, z: 16.264076}
+  m_LocalPosition: {x: 27.019747, y: -10.834297, z: 16.264076}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -32426,7 +32426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf1bc4231cd488747b310a16165d24c1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.26
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: bf1bc4231cd488747b310a16165d24c1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -39577,7 +39577,7 @@ Transform:
   m_GameObject: {fileID: 1297702985}
   serializedVersion: 2
   m_LocalRotation: {x: 0.2982337, y: -0.06636323, z: 0.020790704, w: 0.9519561}
-  m_LocalPosition: {x: -29.230513, y: 5.705702, z: -1.2530518}
+  m_LocalPosition: {x: -29.230513, y: 5.9657025, z: -1.2530515}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -54639,7 +54639,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1788946102}
-  m_Enabled: 0
+  m_Enabled: 1
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 4e870f1b03283f745866f605a0723227, type: 2}
   m_CullingMode: 0
@@ -54681,7 +54681,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 0.4
-  m_Speed: 100
+  m_Speed: 5
   m_Acceleration: 67.22
   avoidancePriority: 50
   m_AngularSpeed: 120
