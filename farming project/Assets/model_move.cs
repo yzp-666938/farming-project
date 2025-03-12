@@ -11,17 +11,17 @@ public class model_move : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        nav = this.GetComponent<NavMeshAgent>();
-        GameObject vegetable = GameObject.Find("plant-salad (193)");
-        destination = vegetable.transform.position;
-        Debug.Log("目的地"+ destination);
-        nav.SetDestination(destination);
+        GoDestination("plant-salad (193)");
 
     }
 
     // Update is called once per frame
-    void Update()
+    public void GoDestination(string desname)
     {
-        
+        nav = this.GetComponent<NavMeshAgent>();
+        GameObject vegetable = GameObject.Find(desname);
+        destination = vegetable.transform.position;
+        Debug.Log("目的地" + destination);
+        nav.SetDestination(destination);
     }
 }
