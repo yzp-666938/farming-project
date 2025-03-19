@@ -1,0 +1,14 @@
+E:\代码\c#\websocket学习\WebSocket--Server\bin\Debug\net8.0\WebSocket--Server.exe
+E:\代码\c#\websocket学习\WebSocket--Server\bin\Debug\net8.0\WebSocket--Server.deps.json
+E:\代码\c#\websocket学习\WebSocket--Server\bin\Debug\net8.0\WebSocket--Server.runtimeconfig.json
+E:\代码\c#\websocket学习\WebSocket--Server\bin\Debug\net8.0\WebSocket--Server.dll
+E:\代码\c#\websocket学习\WebSocket--Server\bin\Debug\net8.0\WebSocket--Server.pdb
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.GeneratedMSBuildEditorConfig.editorconfig
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.AssemblyInfoInputs.cache
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.AssemblyInfo.cs
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.csproj.CoreCompileInputs.cache
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.dll
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\refint\WebSocket--Server.dll
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.pdb
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\WebSocket--Server.genruntimeconfig.cache
+E:\代码\c#\websocket学习\WebSocket--Server\obj\Debug\net8.0\ref\WebSocket--Server.dll
