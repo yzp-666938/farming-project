@@ -1504,7 +1504,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 50288513}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822611066}
+        m_TargetAssemblyTypeName: buttoncontronl, Assembly-CSharp
+        m_MethodName: ReturnValueOnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &50288513
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28140,7 +28152,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 924589302}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822611066}
+        m_TargetAssemblyTypeName: buttoncontronl, Assembly-CSharp
+        m_MethodName: ReturnValueOnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &924589302
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38158,7 +38182,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1195153905}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822611066}
+        m_TargetAssemblyTypeName: buttoncontronl, Assembly-CSharp
+        m_MethodName: ReturnValueOnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1195153905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40076,7 +40112,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1249359511}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822611066}
+        m_TargetAssemblyTypeName: buttoncontronl, Assembly-CSharp
+        m_MethodName: ReturnValueOnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1249359511
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57000,6 +57048,7 @@ GameObject:
   - component: {fileID: 1822611065}
   - component: {fileID: 1822611064}
   - component: {fileID: 1822611063}
+  - component: {fileID: 1822611066}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -57095,6 +57144,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1822611061}
   m_CullTransparentMesh: 1
+--- !u!114 &1822611066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1822611061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9d8563c38e58d1478e6928da5fafed5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1822698662
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62312,7 +62373,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1995468735}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1822611066}
+        m_TargetAssemblyTypeName: buttoncontronl, Assembly-CSharp
+        m_MethodName: ReturnValueOnClick
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1995468735
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -67396,6 +67469,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01ba22f9e6dd95048a02f0541bdfe210, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CamId: 0
   cameras:
   - {fileID: 1053271176}
   - {fileID: 650832481}
