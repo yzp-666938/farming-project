@@ -4,8 +4,7 @@ using UnityEngine;
 
 public class camera_c : MonoBehaviour
 {
-    Vector2 borderX = new Vector2(7, 76);
-    Vector2 borderZ = new Vector2(-29, 43);
+   
     float movespeed = 50;
     public Camera camera;
     // Start is called before the first frame update
@@ -31,25 +30,7 @@ public class camera_c : MonoBehaviour
 
         transform.position += dir * Time.deltaTime * movespeed;
 
-        //¾ÀÕý×ø±ê
-        if (transform.position.x > borderX.y)
-        {
-            transform.position = new Vector3(borderX.y, transform.position.y, transform.position.z);
-        }
-        else if (transform.position.x < borderX.x)
-        {
-            transform.position = new Vector3(borderX.x, transform.position.y, transform.position.z);
-        }
-
-        if (transform.position.z > borderZ.y)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y,borderZ.y);
-        }
-        else if (transform.position.z < borderZ.x)
-        {
-            transform.position = new Vector3(transform.position.x, transform.position.y, borderZ.x);
-        }
-        //Êó±ê¹öÂÖ
+       
         float mouseScrollWheel = Input.GetAxis("Mouse ScrollWheel");
 
         if (mouseScrollWheel > 0)
